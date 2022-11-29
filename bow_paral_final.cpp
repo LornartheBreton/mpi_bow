@@ -190,7 +190,6 @@ int main (int argc, char *argv[]) {
     end = MPI_Wtime();
 
     duration = end - start;
-    MPI_Reduce(&duration,&global,1,MPI_DOUBLE,MPI_MAX,0,MPI_COMM_WORLD);
     MPI_Finalize();
 
     if (id == 0) cout << duration << "\n";
