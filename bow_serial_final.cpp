@@ -24,7 +24,7 @@ map<string, int> read_count_words(string file_name,map<string, int> dict){
         string word;
         getline(file,word,',');
         dict[word]+=1;
-        for(int i = 0; i<150;i++){
+        for(int i = 0; i<50;i++){
             count.push_back(i);
         }
     }
