@@ -4,8 +4,8 @@ This is a paralell implementation of the Bag of Words algorithm utilizing MPI.
 
 ## Contributors
 + Ernesto Anaya Olivares - 190656
-+ Guillermo Naranjo Muedano - 190240
-+ Héctor Gómez Torres Torres - 191589
++ [Guillermo Naranjo Muedano](https://github.com/guillermoNaranjo) - 190240
++ [Héctor Gómez Torres Torres](https://github.com/LornartheBreton) - 191589
 
 ## How to run
 
